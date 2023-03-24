@@ -32,7 +32,7 @@ With the **main.py** the main experiments can be executed.
 ### set the parameters
 - As environment choose **env_model = "single_line_traversal"**. 
 - Pick a decoder of your choice via the variable **vector_model**.
-- Set **nr_steps = 8000** and **nr_steps_exploration = 3500**.
+- Set **nr_steps = 8000** and **nr_steps_exploration = 15000**.
 - Double check what data you want to save of each trial.
 
 ### Maze test
