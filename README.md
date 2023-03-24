@@ -48,7 +48,7 @@ You also have the option to create videos with the **main.py** file. This is why
 ## Code Structure
 Note that some folders are git-ignored but will be created when running the script.
 
-    ├── data                   			# Optional initialization data for gc, pc, cm
+    ├── data                   		# Optional initialization data for gc, pc, cm
     ├── environment_map         		# Environment files for pybullet scene. Just use linear_sunburst_map
     ├── experiments             		# Here it will save plots, when you analyze run data 
     ├── experimentslinear_lookahead		# Result for errors
@@ -63,7 +63,7 @@ Note that some folders are git-ignored but will be created when running the scri
     │   ├── bio_model           		# Scripts modeling HDC,BC,GC,PC and cognitive map cells.
     │   │── controller          		# Navigation phase, Exploration Phase controller and Agent environment
     │   ├── decoder             		# Scripts for different grid cell decoder mechanism,just use linearLookahead
-    │   └── helper.py           		# Some helper function used across scripts
+    │   └── helper.py           	# Some helper function used across scripts
     ├── videos                  		# Here it will save the video
     ├── main.py                 		# Execute this file for main experiments
     ├── README.md               		# You are here. Overview of project
