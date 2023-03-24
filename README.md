@@ -63,7 +63,7 @@ Note that some folders are git-ignored but will be created when running the scri
     │   ├── bio_model           		# Scripts modeling HDC,BC,GC,PC and cognitive map cells.
     │   │── controller          		# Navigation phase, Exploration Phase controller and Agent environment
     │   ├── decoder             		# Scripts for different grid cell decoder mechanism,just use linearLookahead
-    │   └── helper.py           	# Some helper function used across scripts
+    │   └── helper.py           	    # Some helper function used across scripts
     ├── videos                  		# Here it will save the video
     ├── main.py                 		# Execute this file for main experiments
     ├── README.md               		# You are here. Overview of project
