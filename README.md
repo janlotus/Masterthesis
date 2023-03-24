@@ -48,12 +48,10 @@ You also have the option to create videos with the **main.py** file. This is why
 ## Code Structure
 Note that some folders are git-ignored but will be created when running the script.
 
-    .
     ├── data                   			# Optional initialization data for gc, pc, cm
     ├── environment_map         		# Environment files for pybullet scene. Just use linear_sunburst_map
     ├── experiments             		# Here it will save plots, when you analyze run data 
-		├── experimentslinear_lookahead
-
+    ├── experimentslinear_lookahead		# Result for errors
     ├── p3dx                    		# Agent files for pybullet
     ├── plots                   		# Here it will save plots during linear lookaheads if you want
     ├── plotting                		# Script to create plots
@@ -72,4 +70,4 @@ Note that some folders are git-ignored but will be created when running the scri
     └── TUM_MA_...pdf           		# Master thesis explaining thoughts and theory behind code
 
 ## Questions left?
-Any questions left or having troubles with the code? Feel free to reach out to tim.engelmann@tum.de
+Any questions left or having troubles with the code? Feel free to reach out to hezhanlun@gmail.com
