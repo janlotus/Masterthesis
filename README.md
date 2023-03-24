@@ -57,13 +57,13 @@ Note that some folders are git-ignored but will be created when running the scri
     ├── plotting                		# Script to create plots
     │   ├── plotThesis.py       		# TUM themed and labeled plots used for the thesis
     │   ├── plotResults.py      		# WIP plots to check results and scripts to create video
-    │   ├── plotHelper.py      			# Some helper functions used by plotResults.py
+    │   ├── plotHelper.py      		# Some helper functions used by plotResults.py
     │   └── tum_logo.png        		# TUM Logo    
     ├── system                  		# Scripts that make up the system
     │   ├── bio_model           		# Scripts modeling HDC,BC,GC,PC and cognitive map cells.
     │   │── controller          		# Navigation phase, Exploration Phase controller and Agent environment
     │   ├── decoder             		# Scripts for different grid cell decoder mechanism,just use linearLookahead
-    │   └── helper.py           	     # Some helper function used across scripts
+    │   └── helper.py           	    # Some helper function used across scripts
     ├── videos                  		# Here it will save the video
     ├── main.py                 		# Execute this file for main experiments
     ├── README.md               		# You are here. Overview of project
