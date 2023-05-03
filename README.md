@@ -75,6 +75,9 @@ Note that some folders are git-ignored but will be created when running the scri
     │       ├──CognitiveMapModel
     │       ├──GridcellModel
     │       ├──HeadDirectionCellModel
+    │           ├──network.py           # Switch between numpy and Pycuda(Nivida GPU),if no GPU, change this script.
+    │           ├──params.py            # Parameters for HDC model
+    │           ├──hdcCalibrConnectivity.py      # If parameter for HDC changes, run this to update the weights.
     │       ├──PlaceCellModel
     │   │── controller          		# Navigation phase, Exploration Phase controller and Agent environment
     │   ├── decoder             		# Scripts for different grid cell decoder mechanism,just use linearLookahead
