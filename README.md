@@ -66,21 +66,21 @@ Note that some folders are git-ignored but will be created when running the scri
     │   └── tum_logo.png        		# TUM Logo    
     ├── system                  		# Scripts that make up the system
     │   ├── bio_model           		# Scripts modeling HDC,BC,GC,PC and cognitive map cells.
-    │       ├──BoundaryCellModel        # Scripts for BC model
-    │           ├──weights              # Files to stores the weights between neurons in BC model
-    │           ├──BoundarycellModel.py # BC Activity calculation, allocentric information not used here
-    │           ├──parametersBC.py      # Parameters,such as number of sensors
-    │           ├──Makeweights.py       # Generate weights, if ParameterBC changes, run this again to update weights.
-    │           ├──.......              # Other scripts.
+    │       ├──BoundaryCellModel            # Scripts for BC model
+    │           ├──weights                  # Files to stores the weights between neurons in BC model
+    │           ├──BoundarycellModel.py     # BC Activity calculation, allocentric information not used here
+    │           ├──parametersBC.py          # Parameters,such as number of sensors
+    │           ├──Makeweights.py           # Generate weights, if ParameterBC changes, run this again to update weights.
+    │           ├──.......                  # Other scripts.
     │       ├──CognitiveMapModel
     │       ├──GridcellModel
     │       ├──HeadDirectionCellModel
-    │           ├──network.py           # Switch between numpy and Pycuda(Nivida GPU),if no GPU, change this script.
-    │           ├──params.py            # Parameters for HDC model
-    │           ├──hdcCalibrConnectivity.py# If parameter for HDC changes, run this to update the weights.
+    │           ├──network.py               # Switch between numpy and Pycuda(Nivida GPU),if no GPU, change this script.
+    │           ├──params.py                # Parameters for HDC model
+    │           ├──hdcCalibrConnectivity.py # If parameter for HDC changes, run this to update the weights.
     │       ├──PlaceCellModel
-    │   │── controller          		# Navigation phase, Exploration Phase controller and Agent environment
-    │   ├── decoder             		# Scripts for different grid cell decoder mechanism,just use linearLookahead
+    │   │── controller          		    # Navigation phase, Exploration Phase controller and Agent environment
+    │   ├── decoder             		    # Scripts for different grid cell decoder mechanism,just use linearLookahead
     │   └── helper.py           	        # Some helper function used across scripts
     ├── videos                  		# Here it will save the video
     ├── main.py                 		# Execute this file for main experiments
