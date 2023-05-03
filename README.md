@@ -20,8 +20,8 @@ The code is based on Python3. You will need to install the following packages to
 Also make sure to have latex installed to be able to export plots.
 
 ## Some more setup
-For exploration, make sure to set in main.py the variable **from_data = False** to generate the cognitive map.
-For navigation, make sure to set in main.py the variable **from_data = True**.
+For exploration, make sure to set in main.py the variable **run_from_data = False,nr_steps=15000,nr_steps_exploration=nr_steps** to generate the cognitive map.
+For navigation, make sure to set in main.py the variable **run_from_data = True,nr_steps=8000,nr_steps_exploration=0**.
 
 When running experiments, double check where the data will be saved and avoid that it overwrites your previous runs.
 
@@ -34,6 +34,11 @@ With the **main.py** the main experiments can be executed.
 - Pick a decoder of your choice via the variable **vector_model**.
 - Set **nr_steps = 8000** and **nr_steps_exploration = 15000**.
 - Double check what data you want to save of each trial.
+- if use Video, then comment the two functions plot_sub_goal_localization in linearLookahead.py
+- Nivida GPU RTX3060 and Pycuda is used for calculation.
+- If no GPU,then change the system/Bio_model/HeadDirectionCellModel/network.py, use numpy, but maybe not work
+- If change the parameters in system/Bio_model/HeadDirectionCellModel/params.py,generate weights using hdcCalibrConnectivity.py
+- If change the parameters in system/Bio_model/BoundaryCellModel/parametersBC.py, such as number of sensors, generate weights using MakeWeights.py
 
 ### Maze test
 Here it makes sense to decouple exploration and navigation phase.
